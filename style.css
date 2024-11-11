@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    box-sizing: content-box;
+    font-family: 'roboto';
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    list-style: none;
+}
+a {
+   text-decoration: none;
+   
+}
+
+/* Header sectiond */
+
+header {
+    height: 72px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 8px;
+}
+
