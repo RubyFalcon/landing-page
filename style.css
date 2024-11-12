@@ -2,8 +2,7 @@
     margin: 0;
     box-sizing: content-box;
     font-family: 'Roboto';
-    background-color: #1F2937;
-    color: #F9FAF8;
+    
     
 }
 
@@ -11,6 +10,8 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
 
 li {
@@ -45,12 +46,14 @@ main {
 
   
 }
-.awesome {
+.awesome{
     display: flex;
+    
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    
     height: 300px;
     margin: 20px;
 }
@@ -59,11 +62,14 @@ footer{
     height: 72px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    /* padding-top: 12px; */
 }
 
 .vert-container {
     display: flex;
     flex-direction: column;
+    gap: 8px;
 }
 
 .img-container {
@@ -72,3 +78,88 @@ footer{
     text-align: center;
 }
 
+.info, .sign-up{
+    background-color: #F9FAF8;
+    color: #1F2937;
+}
+
+.info {
+    
+    height: 300px;
+    padding-top: 12px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 48px;
+}
+
+.info .card {
+    padding: 48px;
+    width: 100px;
+    background-color: #f9faf81a;
+    text-align: center;
+    border: 4px solid #0088f8;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 4px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 64px;
+
+    padding:  4px 16px;
+    font-size: 18px;
+    font-weight: 900;
+    border-radius: 8px;
+
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    justify-content: center;
+    background-color: #E5E7EB;
+    font-size: 32px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.sign-up {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 48px;
+}
+
+.sign-up-card {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    width: 800px;
+    /* flex-grow: 1; */
+    height: auto;
+    background-color: #0088f8;
+    color: #E5E7EB;
+    padding: 45px;
+    border-radius: 8px;
+}
+
+.sign-up-card button {
+    background-color: #0088f8;
+    color: #E5E7EB;
+    border-color: #E5E7EB;
+}
